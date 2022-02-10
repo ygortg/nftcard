@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0D1A2D;
+    color: #4e6485;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #15273F;
+    height: 82%;
+    width: 300px;
+    border-radius: 10px;
+
+    box-shadow: 1px 20px 100px 5px #09111b;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #00FFF8;
+    transition-duration: .5s;
+}
+
+section#image{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+section#image img{
+    border-radius: 10px;
+    max-width:260px;
+    max-height:260px;
+    width: auto;
+    height: auto;
+}
+
+section#image img:hover{
+    filter: opacity(0.8) drop-shadow(0 0 0 #00FFF8);
+}
+
+section#apresentacao > p{
+    padding: 0px 15px 20px 15px;
+}
+
+section#apresentacao > p#descript{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+section#price > p{
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 10px 30px 20px 25px;
+}
+
+section#price > p#crypto{
+    color: #00FFF8;
+    font-weight: bolder;
+}
+
+div#line{
+    margin-left: 15px;
+    width: 260px;
+    border: 1px solid #1C2E46;
+}
+
+section#autor{
+    display: flex;
+    font-size: 0.9em;
+    align-items: center;
+}
+
+section#autor > img{
+    max-width: 35px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+
+    margin: 20px 0px 20px 20px;
+
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+section#autor p{
+    padding: 10px;
+}
